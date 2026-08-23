@@ -12,7 +12,6 @@ final class ApplicationLivewireServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'application-livewire');
-        Livewire\Livewire::component('application-livewire-overview', Liberu\Foundation\ApplicationLivewire\Livewire\Overview::class);
+        Livewire::component('application-livewire-overview', Liberu\Foundation\ApplicationLivewire\Livewire\Overview::class);
     }
 }
-

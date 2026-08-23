@@ -3,7 +3,7 @@
   "name": "application-livewire",
   "display_name": "Application Core Livewire",
   "description": "Application Core livewire presentation adapter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\ApplicationLivewire\\ApplicationLivewireServiceProvider",
   "requires": {
@@ -24,4 +24,3 @@
     "Accessible loading, empty, denied, and failure states"
   ]
 }
-
